@@ -5,6 +5,8 @@
 > - SELECT * FROM abc WHERE cnt = xxx AND name LIKE 'yyy%'
 > - SELECT * FROM abc ORDER BY cnt ASC
 
+Добавление индексов должно улучшить выборку данных.
+
 `ALTER TABLE abc ADD INDEX abc_cnt_name(cnt, name);`
 
 ## #2
